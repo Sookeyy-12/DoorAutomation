@@ -1,2 +1,4 @@
-'dataset/students/KRS Door automation images/'
-test folder\
+*.png
+*.jpg
+*.jpeg
+*.heic

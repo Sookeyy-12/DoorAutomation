@@ -78,7 +78,6 @@ while True:
             cv2.putText(img, name, (x1+6, y2-5), cv2.FONT_HERSHEY_COMPLEX, 1, (255, 255, 255), 2)
     else:
         print("Spoofing attempt")
-        break
     
     fps = 1 / (new_frame_time - prev_frame_time)
     prev_frame_time = new_frame_time

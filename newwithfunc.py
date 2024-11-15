@@ -79,6 +79,7 @@ def recognize_faces(img):
 
             if matchIndex is not None and min_distance <= face_match_threshold:
                 name = matchIndex.upper().lower()
+                print(name)
             else:
                 name = "unknown"
 
